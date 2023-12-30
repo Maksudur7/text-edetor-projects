@@ -1,0 +1,85 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+body {
+    background-color: lightblue;
+    background-image: url('./images\ \(2\).jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Image-body {
+    background-color: rgba(173, 216, 230, 0.39);
+    /* width: 500px; */
+    /* background-image: url('https://ibb.co/1J4H4Gp'); */
+    border: 2px solid gold;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.btn-body {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.btn {
+    background-color: goldenrod;
+    height: 30px;
+    width: 100px;
+}
+
+.IconSet {
+    display: block;
+}
+
+.font-size-input {
+    display: flex;
+    gap: 10px;
+}
+
+.font-size-input-section {
+    display: flex;
+    gap: 30px;
+}
+
+.hidden {
+    display: none;
+}
+
+.sevillana {
+    font-family: 'Sevillana', cursive;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.input {
+    width: 200px;
+    height: 40px;
+}
+
+.hide {
+    display: inline;
+}
+
+.selectSection {
+    padding-top: 100px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.select {
+    width: 300px;
+    height: 30px;
+    margin: 0px 0px 50px 0px;
+}
+
+.btn-full {
+    width: 300px;
+}
